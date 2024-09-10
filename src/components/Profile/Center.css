@@ -1,0 +1,6 @@
+.center{
+    width: 63vw;
+    display: flex;
+    margin:4vw auto;
+    justify-content: space-around;
+}

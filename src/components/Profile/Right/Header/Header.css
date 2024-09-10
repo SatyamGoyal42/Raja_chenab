@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.header{
+    h1{
+        font-size: 1.8vw;
+        color: rgba(205, 130, 166, 1);
+        margin:1.5vw 0 .5vw 2vw;
+    }
+    hr{
+        height: .2vw;
+        background-color: rgba(205, 130, 166, 1);
+        width: 90%;
+        margin: 0 auto;
+    }
+    .dp_editbutton{
+        width: 90%;
+        margin: 1vw auto;
+        display: flex;
+        justify-content: space-between;
+        .dp{
+            width: 10.7vw;
+            height: 10.7vw;
+            border-radius: 2vw;
+            border: .2vw solid rgba(205, 130, 166, 1); ;
+            background-image: url('../../../../assests/Profile/userPink.svg');
+            background-repeat: no-repeat;
+            background-size: 70% 70%;
+            background-position: center;
+            margin-left: .5vw;
+        }
+        .edit{
+            display: flex;
+            width: 11vw;
+            height: 2.6vw;
+            justify-content: space-evenly;
+            background-color: rgba(205, 130, 166, 1);
+            align-items: center;
+            border-radius: .7vw;
+            img{
+                width: 1.4vw;
+            }
+            p{  
+                font-weight: 500;
+                font-size: 1.5vw;
+                color: white;
+            }
+        }
+        .edit:hover{
+            cursor: pointer;
+        }
+    }
+
+}

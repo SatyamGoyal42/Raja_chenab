@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.hcard{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    width: 90%;
+    gap: 2vw;
+    height: 5.5vw;
+    margin: 3vw auto;
+    .dp{
+        width: 5.2vw;
+        background-color: rgba(205, 130, 166, 1);
+        height: 5.2vw;
+        border-radius: .5vw;
+        background-image: url('../../../assests/Profile/user.svg');
+        background-repeat: no-repeat;
+        background-size: 70% 70%;
+        background-position: center;
+        margin-left: .5vw;
+    }
+    .text{
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{  
+            margin: 0;
+            font-size: 1.05vw;
+            color: rgba(205, 130, 166, 1);
+        }
+        h1{ 
+            margin: 0;
+            font-size: 1.4vw;
+            font-weight: 700;
+            color:rgba(168, 34, 98, 1);
+        }
+    }
+}

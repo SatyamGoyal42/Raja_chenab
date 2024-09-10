@@ -1,0 +1,33 @@
+.heroContainer {
+    margin:1vw auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 35vw;
+    overflow: hidden;
+    position: relative;
+
+    .heroImage {
+        object-fit: cover;
+        object-position: bottom;
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+    .heroText {
+        position: absolute;
+        color: #fff2f2;
+        font-family: "Dancing Script", cursive;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 4vw;
+        width: 90%;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        text-align: center;
+    }
+}
+
+
+

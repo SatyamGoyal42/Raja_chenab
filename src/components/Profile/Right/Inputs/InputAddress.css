@@ -1,0 +1,25 @@
+.address_button{
+    width: 90%;
+    margin: .5vw auto;
+    display: flex;
+    flex-direction: column;
+    p{
+        font-size: 1.2vw;
+        color: rgba(205, 130, 166, 1);
+        font-weight: 700;
+        margin-left:.4vw ;
+    }
+    .desc{
+        display: flex;
+        width: 70%;
+        border-radius: .5vw;
+        height: 5vw;
+        background-color: rgba(232, 224, 224, 1);
+        font-size: .8vw;
+        font-weight: 700;
+        color: rgba(117, 97, 106, 1);
+        align-items: baseline;
+        padding-top: .2vw;
+        padding-left: .4vw ;
+    }
+}

@@ -1,0 +1,31 @@
+.categories{
+    width: 90%;
+    margin: 3vw auto;
+
+    .container {
+        display: flex;
+        justify-content: space-evenly;
+        margin:2vw auto;
+        align-items: center;
+        hr{
+            width: 30%;
+            height:.2vw;
+            background-color: black;
+        }
+        .heading {
+            font-family: "Dancing Script", cursive;
+            padding: 0 10px;
+            font-size: 4vw;
+          }
+    }
+    .catcardgrps{
+        display: flex;
+        justify-content: space-around;
+        align-items: first baseline;
+    }
+
+}
+
+  
+  
+  
